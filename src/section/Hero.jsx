@@ -38,7 +38,9 @@ function Hero() {
             <a
               itemProp="url"
               target="_blank"
-              href="https://www.facebook.com/profile.php?id=61568376730830">Contact Us</a>
+              href="https://www.facebook.com/profile.php?id=61568376730830">
+              Contact Us
+            </a>
           </button>
         </div>
 
@@ -49,6 +51,7 @@ function Hero() {
               className="object-cover w-full h-full brightness-50"
               src="/banner-hero.png"
               alt="Hero Image"
+              loading="lazy"
             />
             {/*       <div className="absolute left-[70%] top-[17%]">
             <img
