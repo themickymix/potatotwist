@@ -34,8 +34,11 @@ function Hero() {
           <h1 className="roboto-bold-italic text-white text-4xl sm:text-6xl text-center animate-fade-right">
             A Twist You Can't Resist!
           </h1>
-          <button className="bg-yellow-600 p-3 rounded-lg font-bold mt-4 sm:mt-8">
-            CONTACT US
+          <button className="bg-yellow-600 text-gray-200 p-3 rounded-full font-bold mt-4 sm:mt-8">
+            <a
+              itemProp="url"
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=61568376730830">Contact Us</a>
           </button>
         </div>
 
